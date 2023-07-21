@@ -5,7 +5,7 @@ local pluginName = package:match("^kong%-plugin%-(.+)$")  -- "header-rewrite"
 supported_platforms = {"linux", "macosx"}
 
 source = {
-  url = "https://gitlab.devops.telekom.de/fast/infr/tools/kong-plugins/apigw/header-rewrite",
+  url = "https://gitlab.com/fast/infr/tools/kong-plugins/apigw/header-rewrite",
   tag = "1.0.0"
 }
 
